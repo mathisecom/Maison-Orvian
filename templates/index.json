@@ -9,6 +9,48 @@
  */
 {
   "sections": {
+    "slideshow_TEjFgc": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mTjwJE": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mTjwJE"
+      ],
+      "disabled": true,
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "collectionhomepage_WeTt8L": {
       "type": "collectionhomepage",
       "blocks": {
@@ -49,12 +91,12 @@
       "settings": {
         "heading": "Nos Essentiels",
         "description": "Découvrez une sélection pensée pour protéger, organiser et mettre en valeur vos pièces.",
-        "section_background": "#FFFFFF",
-        "card_background": "#FFFFFF",
-        "image_background": "#F1F1F2",
-        "text_color": "#1A1A1A",
-        "button_background": "#1A1A1A",
-        "button_text_color": "#FFFFFF",
+        "section_background": "#ffffff",
+        "card_background": "#ffffff",
+        "image_background": "#f1f1f2",
+        "text_color": "#1a1a1a",
+        "button_background": "#1a1a1a",
+        "button_text_color": "#ffffff",
         "max_width": 1350,
         "padding_top": 60,
         "padding_bottom": 60,
@@ -385,6 +427,7 @@
     }
   },
   "order": [
+    "slideshow_TEjFgc",
     "collectionhomepage_WeTt8L",
     "barreannoncescrooll_U8jjqw",
     "featured_collection_yrpGR9",
