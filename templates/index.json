@@ -132,7 +132,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Notre Histoire",
-            "content": "<p><strong>Maison Orvin</strong> est née d’un besoin simple.</p><p>Offrir aux montres un rangement adapté, pensé pour les protéger, préserver leurs bracelets et organiser chaque pièce avec soin.</p>",
+            "content": "<p><strong>Maison Orvin</strong> est née d’un <strong>besoin simple. </strong>Offrir aux montres un rangement adapté, pensé pour les protéger, préserver leurs bracelets et organiser chaque pièce avec soin.</p>",
             "link_text": "NOS COLLECTIONS",
             "link_url": "",
             "background": "#ffffff",
@@ -166,8 +166,8 @@
         "heading_AkyHwe": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
+            "text": "+3,000 Clients Satisfaits",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
