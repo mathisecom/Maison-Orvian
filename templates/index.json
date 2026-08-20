@@ -49,21 +49,37 @@
           "type": "item",
           "settings": {
             "title": "Quels types de montres peuvent être rangés dans vos boîtes ?",
-            "content": "<p><br/>Nos boîtes sont conçues pour accueillir différents types de montres : mécaniques, automatiques, à quartz ou connectées. Les coussins s’adaptent à plusieurs tailles de bracelets afin d’assurer un maintien confortable de vos montres.<br/></p>"
+            "content": "<p>Nos boîtes sont conçues pour accueillir différents types de montres : mécaniques, automatiques, à quartz ou connectées. Les coussins s’adaptent à plusieurs tailles de bracelets afin d’assurer un maintien confortable de vos montres.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Les étuis, boîtes et remontoirs sont-ils compatibles avec toutes les montres ?",
+            "content": "<p>Nos produits sont conçus pour accueillir la grande majorité des montres du marché, qu’elles soient classiques, sportives ou de luxe. Les dimensions de chaque produit sont précisées sur sa fiche afin de vous permettre de vérifier facilement sa compatibilité avec votre montre.</p>"
+          }
+        },
+        "item_9jPqRd": {
+          "type": "item",
+          "settings": {
+            "title": "Quels matériaux sont utilisés ?",
+            "content": "<p><br/>Nos boîtes sont conçues avec des matériaux rigides pour assurer une bonne protection de vos montres, associés à des revêtements intérieurs plus doux afin de limiter les frottements et les contacts directs.<br/><br/></p>"
+          }
+        },
+        "item_yM6iKT": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_9jPqRd",
+        "item_yM6iKT"
       ],
       "settings": {
         "full_width": true,
