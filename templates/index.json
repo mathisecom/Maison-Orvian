@@ -147,7 +147,7 @@
         "image_fit": "contain",
         "image_ratio": 1.3,
         "heading_size": 38,
-        "description_size": 17,
+        "description_size": 15,
         "card_title_size": 19,
         "card_text_size": 14,
         "padding_top_mobile": 20,
