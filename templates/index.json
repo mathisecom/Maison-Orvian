@@ -92,6 +92,73 @@
         "pause_on_hover": false
       }
     },
+    "collectionhomepage_WeTt8L": {
+      "type": "collectionhomepage",
+      "blocks": {
+        "card_JHrRjA": {
+          "type": "card",
+          "settings": {
+            "title": "Boîtes à montres",
+            "text": "",
+            "button_text": "Découvrir",
+            "link": ""
+          }
+        },
+        "card_FkG7HD": {
+          "type": "card",
+          "settings": {
+            "title": "Remontoirs",
+            "text": "",
+            "button_text": "Découvrir",
+            "link": ""
+          }
+        },
+        "card_MYfiMc": {
+          "type": "card",
+          "settings": {
+            "title": "Étuis à montres",
+            "text": "",
+            "button_text": "Découvrir",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_JHrRjA",
+        "card_FkG7HD",
+        "card_MYfiMc"
+      ],
+      "name": "Maison Orvin - Cartes",
+      "settings": {
+        "heading": "Nos Essentiels",
+        "description": "Découvrez une sélection pensée pour protéger, organiser et mettre en valeur vos pièces.",
+        "section_background": "#FFFFFF",
+        "card_background": "#FFFFFF",
+        "image_background": "#F1F1F2",
+        "text_color": "#1A1A1A",
+        "button_background": "#1A1A1A",
+        "button_text_color": "#FFFFFF",
+        "max_width": 1350,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "header_spacing": 48,
+        "card_gap": 28,
+        "card_radius": 10,
+        "image_fit": "contain",
+        "image_ratio": 1.3,
+        "heading_size": 38,
+        "description_size": 17,
+        "card_title_size": 19,
+        "card_text_size": 14,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "heading_size_mobile": 28,
+        "description_size_mobile": 14,
+        "card_title_size_mobile": 18,
+        "card_text_size_mobile": 13,
+        "card_radius_mobile": 10
+      }
+    },
     "featured_collection_yrpGR9": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -319,6 +386,7 @@
   },
   "order": [
     "barreannoncescrooll_U8jjqw",
+    "collectionhomepage_WeTt8L",
     "featured_collection_yrpGR9",
     "media_with_text_TG7R9J",
     "rich_text_kH6pDg",
