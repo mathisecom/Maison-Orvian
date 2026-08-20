@@ -356,9 +356,10 @@
         "testimonial_8w447M": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/gempages_571765381580981472-6117fee8-8904-45ff-959f-de656088ce08.webp",
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "John S.",
             "title": "Testimonial 1",
             "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
@@ -367,6 +368,7 @@
         "testimonial_eN7k6m": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/gempages_571765381580981472-773f7b1b-d4c8-41d8-a213-a2d269aeafe0.jpg",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
@@ -378,6 +380,7 @@
         "testimonial_9VLVjK": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/gempages_571765381580981472-53068ecf-6f86-4a7f-bc84-993f473c3b7e.jpg",
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
@@ -385,12 +388,25 @@
             "title": "Testimonial 3",
             "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
           }
+        },
+        "testimonial_UgmeWf": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/gempages_571765381580981472-697df071-eed1-4437-b8d5-e3454f89ef1b.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
         }
       },
       "block_order": [
         "testimonial_8w447M",
         "testimonial_eN7k6m",
-        "testimonial_9VLVjK"
+        "testimonial_9VLVjK",
+        "testimonial_UgmeWf"
       ],
       "name": "Testimonials",
       "settings": {
