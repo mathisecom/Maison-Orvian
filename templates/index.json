@@ -47,7 +47,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -92,7 +92,7 @@
         "heading": "Nos Essentiels",
         "description": "Découvrez une sélection pensée pour protéger, organiser et mettre en valeur vos pièces.",
         "section_background": "#ffffff",
-        "card_background": "#F1F1F2",
+        "card_background": "#f1f1f2",
         "image_background": "#f1f1f2",
         "text_color": "#1a1a1a",
         "button_background": "#1a1a1a",
@@ -329,7 +329,7 @@
         "heading_AkyHwe": {
           "type": "heading",
           "settings": {
-            "text": "+3,000 Clients Satisfaits",
+            "text": "+3,000 Passionnés Satisfaits",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
