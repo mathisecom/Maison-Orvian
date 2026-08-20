@@ -87,7 +87,7 @@
         "padding_vertical_mobile": 12,
         "separator_size": 7,
         "separator_radius": 1,
-        "speed_desktop": 35,
+        "speed_desktop": 50,
         "speed_mobile": 80,
         "pause_on_hover": false
       }
