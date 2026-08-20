@@ -52,28 +52,13 @@
             "title": "Refer a friend",
             "content": "<p>Tell your customers about your promotional offers.</p>"
           }
-        },
-        "payment": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.</p>"
-          }
         }
       },
       "block_order": [
         "free-shipping",
         "customer-support",
-        "discount",
-        "payment"
+        "discount"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -81,7 +66,7 @@
         "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "",
+        "background": "#F1F1F2",
         "background_gradient": "",
         "text_color": ""
       }
@@ -93,7 +78,7 @@
           "type": "newsletter",
           "settings": {
             "image": "shopify://shop_images/Nouveau_projet_57_1.png",
-            "image_width": 170,
+            "image_width": 190,
             "heading_size": "h3",
             "title": "Newsletter",
             "content": ""
