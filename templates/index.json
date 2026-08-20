@@ -14,9 +14,7 @@
       "name": "Featured collection",
       "settings": {
         "collection": "",
-        "products": [
-          "boite-a-montres-luxembourg-12-montres"
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
