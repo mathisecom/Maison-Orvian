@@ -1,0 +1,744 @@
+{% style %}
+  #OrvinCards-{{ section.id }} {
+    --orvin-bg: {{ section.settings.section_background }};
+    --orvin-card-bg: {{ section.settings.card_background }};
+    --orvin-image-bg: {{ section.settings.image_background }};
+    --orvin-text: {{ section.settings.text_color }};
+    --orvin-button-bg: {{ section.settings.button_background }};
+    --orvin-button-text: {{ section.settings.button_text_color }};
+
+    background: var(--orvin-bg);
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #OrvinCards-{{ section.id }} * {
+    box-sizing: border-box;
+  }
+
+  #OrvinCards-{{ section.id }} .orvin-container {
+    width: 100%;
+    max-width: {{ section.settings.max_width }}px;
+    margin: 0 auto;
+    padding:
+      {{ section.settings.padding_top }}px
+      24px
+      {{ section.settings.padding_bottom }}px;
+  }
+
+  /* TITRE */
+
+  #OrvinCards-{{ section.id }} .orvin-header {
+    max-width: 800px;
+    margin: 0 auto {{ section.settings.header_spacing }}px;
+    text-align: center;
+  }
+
+  #OrvinCards-{{ section.id }} .orvin-heading {
+    margin: 0;
+    color: var(--orvin-text);
+    font-size: {{ section.settings.heading_size }}px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+  }
+
+  #OrvinCards-{{ section.id }} .orvin-description {
+    margin: 16px 0 0;
+    color: var(--orvin-text);
+    font-size: {{ section.settings.description_size }}px;
+    line-height: 1.5;
+    opacity: 0.75;
+  }
+
+  /* GRID */
+
+  #OrvinCards-{{ section.id }} .orvin-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: {{ section.settings.card_gap }}px;
+  }
+
+  /* CARD */
+
+  #OrvinCards-{{ section.id }} .orvin-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+    background: var(--orvin-card-bg);
+    border-radius: {{ section.settings.card_radius }}px;
+  }
+
+  #OrvinCards-{{ section.id }} .orvin-card-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 28px 24px 24px;
+  }
+
+  #OrvinCards-{{ section.id }} .orvin-card-title {
+    margin: 0;
+    color: var(--orvin-text);
+    font-size: {{ section.settings.card_title_size }}px;
+    line-height: 1.25;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+
+  #OrvinCards-{{ section.id }} .orvin-card-text {
+    margin: 10px auto 0;
+    max-width: 300px;
+    color: var(--orvin-text);
+    font-size: {{ section.settings.card_text_size }}px;
+    line-height: 1.45;
+    opacity: 0.7;
+  }
+
+  /* BOUTON */
+
+  #OrvinCards-{{ section.id }} .orvin-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 165px;
+    min-height: 46px;
+    margin-top: 26px;
+    padding: 12px 28px;
+
+    background: var(--orvin-button-bg);
+    color: var(--orvin-button-text);
+
+    border: 1px solid var(--orvin-button-bg);
+    border-radius: 999px;
+
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 600;
+    text-decoration: none;
+
+    transition:
+      background .25s ease,
+      color .25s ease,
+      transform .25s ease;
+  }
+
+  #OrvinCards-{{ section.id }} .orvin-button:hover {
+    background: transparent;
+    color: var(--orvin-text);
+    transform: translateY(-2px);
+  }
+
+  /* IMAGE */
+
+  #OrvinCards-{{ section.id }} .orvin-image-wrapper {
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+    background: var(--orvin-image-bg);
+    aspect-ratio: 1 / {{ section.settings.image_ratio }};
+    overflow: hidden;
+  }
+
+  #OrvinCards-{{ section.id }} .orvin-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: {{ section.settings.image_fit }};
+    object-position: center;
+    transition: transform .5s ease;
+  }
+
+  #OrvinCards-{{ section.id }} .orvin-card:hover .orvin-image {
+    transform: scale(1.035);
+  }
+
+  #OrvinCards-{{ section.id }} .orvin-image-placeholder {
+    width: 100%;
+    height: 100%;
+    background: var(--orvin-image-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #OrvinCards-{{ section.id }} .orvin-image-placeholder svg {
+    width: 40%;
+    max-width: 160px;
+    opacity: .15;
+  }
+
+  /* TABLETTE */
+
+  @media screen and (max-width: 989px) {
+    #OrvinCards-{{ section.id }} .orvin-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  /* MOBILE */
+
+  @media screen and (max-width: 749px) {
+    #OrvinCards-{{ section.id }} .orvin-container {
+      padding:
+        {{ section.settings.padding_top_mobile }}px
+        0
+        {{ section.settings.padding_bottom_mobile }}px;
+    }
+
+    #OrvinCards-{{ section.id }} .orvin-header {
+      margin-bottom: 30px;
+      padding: 0 20px;
+    }
+
+    #OrvinCards-{{ section.id }} .orvin-heading {
+      font-size: {{ section.settings.heading_size_mobile }}px;
+    }
+
+    #OrvinCards-{{ section.id }} .orvin-description {
+      margin-top: 12px;
+      font-size: {{ section.settings.description_size_mobile }}px;
+    }
+
+    #OrvinCards-{{ section.id }} .orvin-grid {
+      display: flex;
+      gap: 14px;
+
+      width: 100%;
+      overflow-x: auto;
+
+      padding: 0 20px 8px;
+
+      scroll-snap-type: x mandatory;
+      scroll-padding-left: 20px;
+
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    #OrvinCards-{{ section.id }} .orvin-grid::-webkit-scrollbar {
+      display: none;
+    }
+
+    #OrvinCards-{{ section.id }} .orvin-card {
+      flex: 0 0 86%;
+      scroll-snap-align: start;
+      border-radius: {{ section.settings.card_radius_mobile }}px;
+    }
+
+    #OrvinCards-{{ section.id }} .orvin-card-content {
+      padding: 24px 20px 22px;
+    }
+
+    #OrvinCards-{{ section.id }} .orvin-card-title {
+      font-size: {{ section.settings.card_title_size_mobile }}px;
+    }
+
+    #OrvinCards-{{ section.id }} .orvin-card-text {
+      font-size: {{ section.settings.card_text_size_mobile }}px;
+    }
+
+    #OrvinCards-{{ section.id }} .orvin-button {
+      min-width: 150px;
+      min-height: 44px;
+      margin-top: 22px;
+      font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    #OrvinCards-{{ section.id }} .orvin-card {
+      flex-basis: 90%;
+    }
+  }
+{% endstyle %}
+
+
+<section id="OrvinCards-{{ section.id }}">
+  <div class="orvin-container">
+
+    {% if section.settings.heading != blank or section.settings.description != blank %}
+      <div class="orvin-header">
+
+        {% if section.settings.heading != blank %}
+          <h2 class="orvin-heading">
+            {{ section.settings.heading }}
+          </h2>
+        {% endif %}
+
+        {% if section.settings.description != blank %}
+          <div class="orvin-description">
+            {{ section.settings.description }}
+          </div>
+        {% endif %}
+
+      </div>
+    {% endif %}
+
+
+    <div class="orvin-grid">
+
+      {% for block in section.blocks %}
+        <article
+          class="orvin-card"
+          {{ block.shopify_attributes }}
+        >
+
+          <div class="orvin-card-content">
+
+            {% if block.settings.title != blank %}
+              <h3 class="orvin-card-title">
+                {{ block.settings.title }}
+              </h3>
+            {% endif %}
+
+            {% if block.settings.text != blank %}
+              <div class="orvin-card-text">
+                {{ block.settings.text }}
+              </div>
+            {% endif %}
+
+            {% if block.settings.button_text != blank %}
+              <a
+                class="orvin-button"
+                {% if block.settings.link != blank %}
+                  href="{{ block.settings.link }}"
+                {% else %}
+                  role="link"
+                  aria-disabled="true"
+                {% endif %}
+              >
+                {{ block.settings.button_text }}
+              </a>
+            {% endif %}
+
+          </div>
+
+
+          <div class="orvin-image-wrapper">
+
+            {% if block.settings.image != blank %}
+
+              {{
+                block.settings.image
+                | image_url: width: 1200
+                | image_tag:
+                  class: 'orvin-image',
+                  loading: 'lazy',
+                  widths: '360, 500, 700, 900, 1200',
+                  sizes: '(max-width: 749px) 86vw, (max-width: 989px) 50vw, 33vw'
+              }}
+
+            {% else %}
+
+              <div class="orvin-image-placeholder">
+                {{ 'product-1' | placeholder_svg_tag }}
+              </div>
+
+            {% endif %}
+
+          </div>
+
+        </article>
+      {% endfor %}
+
+    </div>
+
+  </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "Maison Orvin - Cartes",
+  "tag": "section",
+  "class": "section-orvin-cards",
+
+  "settings": [
+
+    {
+      "type": "header",
+      "content": "Titre"
+    },
+
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Titre",
+      "default": "Les essentiels Maison Orvin"
+    },
+
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Découvrez une sélection pensée pour protéger, organiser et mettre en valeur vos pièces."
+    },
+
+
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+
+    {
+      "type": "color",
+      "id": "section_background",
+      "label": "Fond de la section",
+      "default": "#FFFFFF"
+    },
+
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Fond supérieur des cartes",
+      "default": "#FFFFFF"
+    },
+
+    {
+      "type": "color",
+      "id": "image_background",
+      "label": "Fond des images",
+      "default": "#F1F1F2"
+    },
+
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Texte",
+      "default": "#1A1A1A"
+    },
+
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Fond bouton",
+      "default": "#1A1A1A"
+    },
+
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Texte bouton",
+      "default": "#FFFFFF"
+    },
+
+
+    {
+      "type": "header",
+      "content": "Dimensions ordinateur"
+    },
+
+    {
+      "type": "range",
+      "id": "max_width",
+      "label": "Largeur maximale",
+      "min": 900,
+      "max": 1800,
+      "step": 50,
+      "unit": "px",
+      "default": 1350
+    },
+
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Espacement supérieur",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 60
+    },
+
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Espacement inférieur",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 60
+    },
+
+    {
+      "type": "range",
+      "id": "header_spacing",
+      "label": "Espace après le titre",
+      "min": 20,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 48
+    },
+
+    {
+      "type": "range",
+      "id": "card_gap",
+      "label": "Espacement entre cartes",
+      "min": 10,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 28
+    },
+
+    {
+      "type": "range",
+      "id": "card_radius",
+      "label": "Arrondi des cartes",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 10
+    },
+
+    {
+      "type": "select",
+      "id": "image_fit",
+      "label": "Affichage des images",
+      "default": "contain",
+      "options": [
+        {
+          "value": "contain",
+          "label": "Image entière"
+        },
+        {
+          "value": "cover",
+          "label": "Remplir la zone"
+        }
+      ]
+    },
+
+    {
+      "type": "range",
+      "id": "image_ratio",
+      "label": "Hauteur zone image",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.3
+    },
+
+
+    {
+      "type": "header",
+      "content": "Typographie ordinateur"
+    },
+
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Taille titre principal",
+      "min": 24,
+      "max": 64,
+      "step": 1,
+      "unit": "px",
+      "default": 38
+    },
+
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Taille description",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 17
+    },
+
+    {
+      "type": "range",
+      "id": "card_title_size",
+      "label": "Titre des cartes",
+      "min": 14,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "default": 19
+    },
+
+    {
+      "type": "range",
+      "id": "card_text_size",
+      "label": "Description des cartes",
+      "min": 11,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+
+
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Espacement supérieur mobile",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Espacement inférieur mobile",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Titre principal mobile",
+      "min": 20,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "default": 28
+    },
+
+    {
+      "type": "range",
+      "id": "description_size_mobile",
+      "label": "Description mobile",
+      "min": 11,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+
+    {
+      "type": "range",
+      "id": "card_title_size_mobile",
+      "label": "Titre carte mobile",
+      "min": 14,
+      "max": 26,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+
+    {
+      "type": "range",
+      "id": "card_text_size_mobile",
+      "label": "Description carte mobile",
+      "min": 11,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+
+    {
+      "type": "range",
+      "id": "card_radius_mobile",
+      "label": "Arrondi cartes mobile",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 10
+    }
+
+  ],
+
+
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Carte",
+      "settings": [
+
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre",
+          "default": "Boîtes à montres"
+        },
+
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Description",
+          "default": "Un rangement élégant pensé pour vos montres."
+        },
+
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Texte du bouton",
+          "default": "Découvrir"
+        },
+
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Lien"
+        },
+
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+
+      ]
+    }
+  ],
+
+  "max_blocks": 6,
+
+
+  "presets": [
+    {
+      "name": "Maison Orvin - Cartes",
+      "blocks": [
+
+        {
+          "type": "card",
+          "settings": {
+            "title": "Boîtes à montres",
+            "text": "Protégez et organisez vos montres avec élégance.",
+            "button_text": "Découvrir"
+          }
+        },
+
+        {
+          "type": "card",
+          "settings": {
+            "title": "Remontoirs",
+            "text": "Gardez vos montres automatiques prêtes à être portées.",
+            "button_text": "Découvrir"
+          }
+        },
+
+        {
+          "type": "card",
+          "settings": {
+            "title": "Étuis à montres",
+            "text": "Emportez vos pièces préférées en toute sécurité.",
+            "button_text": "Découvrir"
+          }
+        }
+
+      ]
+    }
+  ]
+}
+{% endschema %}
