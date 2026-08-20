@@ -9,6 +9,89 @@
  */
 {
   "sections": {
+    "barreannoncescrooll_U8jjqw": {
+      "type": "barreannoncescrooll",
+      "blocks": {
+        "item_RmpjhK": {
+          "type": "item",
+          "settings": {
+            "text": "ÉLÉGANTE",
+            "link": ""
+          }
+        },
+        "item_hzKUY8": {
+          "type": "item",
+          "settings": {
+            "text": "OBJETS DESIGN",
+            "link": ""
+          }
+        },
+        "item_jgnC4g": {
+          "type": "item",
+          "settings": {
+            "text": "MAROQUINERIE",
+            "link": ""
+          }
+        },
+        "item_AFNmMY": {
+          "type": "item",
+          "settings": {
+            "text": "CAVE À CIGARES",
+            "link": ""
+          }
+        },
+        "item_FMtmVT": {
+          "type": "item",
+          "settings": {
+            "text": "BRACELETS",
+            "link": ""
+          }
+        },
+        "item_TA3Qb8": {
+          "type": "item",
+          "settings": {
+            "text": "PRODUITS PERSONNALISABLES",
+            "link": ""
+          }
+        },
+        "item_fxqLdj": {
+          "type": "item",
+          "settings": {
+            "text": "ÉTUI À CIGARE",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_RmpjhK",
+        "item_hzKUY8",
+        "item_jgnC4g",
+        "item_AFNmMY",
+        "item_FMtmVT",
+        "item_TA3Qb8",
+        "item_fxqLdj"
+      ],
+      "name": "Barre annonce défilante",
+      "settings": {
+        "background_color": "#FFFFFF",
+        "text_color": "#47444A",
+        "separator_color": "#47444A",
+        "font_size_desktop": 14,
+        "font_size_mobile": 12,
+        "font_weight": "400",
+        "letter_spacing": 2,
+        "uppercase": true,
+        "gap_desktop": 34,
+        "gap_mobile": 22,
+        "padding_vertical": 15,
+        "padding_vertical_mobile": 12,
+        "separator_size": 7,
+        "separator_radius": 1,
+        "speed_desktop": 35,
+        "speed_mobile": 80,
+        "pause_on_hover": false
+      }
+    },
     "featured_collection_yrpGR9": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -52,7 +135,7 @@
             "content": "<p><strong>Maison Orvin</strong> est née d’un besoin simple.</p><p>Offrir aux montres un rangement adapté, pensé pour les protéger, préserver leurs bracelets et organiser chaque pièce avec soin.</p>",
             "link_text": "NOS COLLECTIONS",
             "link_url": "",
-            "background": "#FFFFFF",
+            "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#000000",
             "text_gradient": "",
@@ -141,6 +224,7 @@
     }
   },
   "order": [
+    "barreannoncescrooll_U8jjqw",
     "featured_collection_yrpGR9",
     "media_with_text_TG7R9J",
     "faq"
