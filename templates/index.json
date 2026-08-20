@@ -73,9 +73,9 @@
       ],
       "name": "Barre annonce défilante",
       "settings": {
-        "background_color": "#FFFFFF",
-        "text_color": "#47444A",
-        "separator_color": "#47444A",
+        "background_color": "#ffffff",
+        "text_color": "#47444a",
+        "separator_color": "#47444a",
         "font_size_desktop": 14,
         "font_size_mobile": 12,
         "font_weight": "400",
@@ -88,7 +88,7 @@
         "separator_size": 7,
         "separator_radius": 1,
         "speed_desktop": 50,
-        "speed_mobile": 80,
+        "speed_mobile": 70,
         "pause_on_hover": false
       }
     },
