@@ -92,7 +92,7 @@
         "heading": "Nos Essentiels",
         "description": "Découvrez une sélection pensée pour protéger, organiser et mettre en valeur vos pièces.",
         "section_background": "#ffffff",
-        "card_background": "#ffffff",
+        "card_background": "#F1F1F2",
         "image_background": "#f1f1f2",
         "text_color": "#1a1a1a",
         "button_background": "#1a1a1a",
@@ -104,7 +104,7 @@
         "card_gap": 28,
         "card_radius": 10,
         "image_fit": "contain",
-        "image_ratio": 1.3,
+        "image_ratio": 1,
         "heading_size": 38,
         "description_size": 15,
         "card_title_size": 19,
@@ -201,6 +201,44 @@
         "pause_on_hover": false
       }
     },
+    "rich_text_NHCyzf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yAWhDb": {
+          "type": "heading",
+          "settings": {
+            "text": "Meilleures Ventes",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "button_VwjfTN": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "TOUT DÉCOUVRIR",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_yAWhDb",
+        "button_VwjfTN"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_collection_yrpGR9": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -214,10 +252,10 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Meilleures Ventes",
+        "title": "",
         "content": "",
         "link_url": "",
-        "link_text": "Découvrir",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -430,6 +468,7 @@
     "slideshow_TEjFgc",
     "collectionhomepage_WeTt8L",
     "barreannoncescrooll_U8jjqw",
+    "rich_text_NHCyzf",
     "featured_collection_yrpGR9",
     "media_with_text_TG7R9J",
     "rich_text_kH6pDg",
