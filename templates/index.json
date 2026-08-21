@@ -400,32 +400,6 @@
         "text_color": ""
       }
     },
-    "rich_text_QjPbmz": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_bFYTMK": {
-          "type": "heading",
-          "settings": {
-            "text": "Nos Remontoirs",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_bFYTMK"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "featured_collection_MCfxHH": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -488,11 +462,37 @@
         "spacing": "none"
       }
     },
+    "rich_text_QjPbmz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bFYTMK": {
+          "type": "heading",
+          "settings": {
+            "text": "Boîtes à Montres",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_bFYTMK"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_collection_kBa4e6": {
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "collection": "remontoirs",
+        "collection": "boite-a-montre",
         "products": [],
         "full_width": true,
         "stack_products": false,
