@@ -88,7 +88,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
+            "title": "Informations sur la livraisons",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
@@ -98,7 +98,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
+            "title": "Garantie Satisfait ou Remboursé",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
@@ -136,6 +136,42 @@
         "input_text_color": ""
       }
     },
+    "media_with_text_JiPAWH": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_6Gakhi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/etuimaisonorvin.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Tranquillité d’Esprit Assurée",
+            "content": "<p>Chez <strong>Maison Orvin</strong>, votre satisfaction est essentielle. Profitez de notre <strong>garantie Satisfait ou Remboursé pendant 30 jours</strong>, ainsi que d’une <strong>garantie constructeur de 2 ans</strong>. </p><p>Essayez votre produit chez vous et, s’il ne vous convient pas, <strong>retournez-le sous 30 jours pour un remboursement complet</strong>.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6Gakhi"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -145,7 +181,7 @@
         "stack_products": false,
         "show_progress_bar": true,
         "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 5,
         "subheading": "",
         "title": "Vous Aimerez Aussi",
         "content": "",
@@ -161,6 +197,7 @@
   },
   "order": [
     "main",
+    "media_with_text_JiPAWH",
     "related-products"
   ]
 }

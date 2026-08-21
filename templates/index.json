@@ -383,7 +383,7 @@
             "image": "shopify://shop_images/MaisonOrvin_Notre_Histoire.webp",
             "media_width": 45,
             "media_position": "start",
-            "text_position": "place-self-start text-start",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
