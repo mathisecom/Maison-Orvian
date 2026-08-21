@@ -336,6 +336,93 @@
         "testimonial_card_text_color": ""
       }
     },
+    "maisonhorlogere_c8FE6z": {
+      "type": "maisonhorlogere",
+      "blocks": {
+        "brand_VWJYg9": {
+          "type": "brand",
+          "settings": {
+            "logo": "shopify://shop_images/logo-1.webp",
+            "name": "Maison 1",
+            "link": ""
+          }
+        },
+        "brand_E4Pmt9": {
+          "type": "brand",
+          "settings": {
+            "logo": "shopify://shop_images/logo-2.webp",
+            "name": "Maison 2",
+            "link": ""
+          }
+        },
+        "brand_78hHNt": {
+          "type": "brand",
+          "settings": {
+            "logo": "shopify://shop_images/logo-4.webp",
+            "name": "Maison 3",
+            "link": ""
+          }
+        },
+        "brand_Ak6iqU": {
+          "type": "brand",
+          "settings": {
+            "logo": "shopify://shop_images/logo-5.webp",
+            "name": "Maison 4",
+            "link": ""
+          }
+        },
+        "brand_UNMzYd": {
+          "type": "brand",
+          "settings": {
+            "logo": "shopify://shop_images/logo-6.webp",
+            "name": "Maison 5",
+            "link": ""
+          }
+        },
+        "brand_Xan8CN": {
+          "type": "brand",
+          "settings": {
+            "logo": "shopify://shop_images/logo-7.webp",
+            "name": "Maison 6",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_VWJYg9",
+        "brand_E4Pmt9",
+        "brand_78hHNt",
+        "brand_Ak6iqU",
+        "brand_UNMzYd",
+        "brand_Xan8CN"
+      ],
+      "name": "Maison Orvin - Marques",
+      "settings": {
+        "title": "Compatibles avec les plus grandes maisons horlogères.",
+        "background_color": "#1A1A1A",
+        "text_color": "#FFFFFF",
+        "max_width": 1400,
+        "padding_top": 68,
+        "padding_bottom": 72,
+        "title_size": 26,
+        "title_weight": "500",
+        "title_bottom_spacing": 68,
+        "logo_gap": 46,
+        "logo_max_width": 150,
+        "logo_height": 46,
+        "logo_area_height": 80,
+        "logo_opacity": 65,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "title_size_mobile": 21,
+        "title_bottom_spacing_mobile": 44,
+        "mobile_logo_width": 120,
+        "logo_gap_mobile": 26,
+        "logo_max_width_mobile": 125,
+        "logo_height_mobile": 54,
+        "logo_area_height_mobile": 70
+      }
+    },
     "media_with_text_JiPAWH": {
       "type": "media-with-text",
       "blocks": {
@@ -400,6 +487,7 @@
     "rich_text_d9Vr7C",
     "logooscroll_dr6Bk7",
     "testimonials_CBr4xA",
+    "maisonhorlogere_c8FE6z",
     "media_with_text_JiPAWH",
     "related-products"
   ]
