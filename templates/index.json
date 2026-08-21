@@ -57,7 +57,7 @@
         "card_JHrRjA": {
           "type": "card",
           "settings": {
-            "title": "Boîtes à montres",
+            "title": "Boîtes à Montres",
             "text": "",
             "button_text": "Découvrir",
             "link": ""
@@ -75,7 +75,7 @@
         "card_MYfiMc": {
           "type": "card",
           "settings": {
-            "title": "Étuis à montres",
+            "title": "Étuis à Montres",
             "text": "",
             "button_text": "Découvrir",
             "link": ""
@@ -533,9 +533,9 @@
             "link_url": "",
             "background": "#101010",
             "background_gradient": "",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "text_gradient": "",
-            "button_background": "#FFFFFF",
+            "button_background": "#ffffff",
             "button_text_color": "#101010"
           }
         }
