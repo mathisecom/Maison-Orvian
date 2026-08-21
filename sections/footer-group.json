@@ -23,7 +23,7 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
+            "title": "Livraison Offerte",
             "content": "<p>Tell your customers about your shipping offer.</p>"
           }
         },
@@ -66,7 +66,7 @@
         "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "#F1F1F2",
+        "background": "#f1f1f2",
         "background_gradient": "",
         "text_color": ""
       }
