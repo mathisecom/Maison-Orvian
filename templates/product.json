@@ -503,12 +503,20 @@
             "title": "Les étuis, boîtes et remontoirs sont-ils compatibles avec toutes les montres ?",
             "content": "<p>Nos produits sont conçus pour accueillir la grande majorité des montres du marché, qu’elles soient classiques, sportives ou de luxe. Les dimensions de chaque produit sont précisées sur sa fiche afin de vous permettre de vérifier facilement sa compatibilité avec votre montre.</p>"
           }
+        },
+        "item_timpHt": {
+          "type": "item",
+          "settings": {
+            "title": "Quels matériaux sont utilisés ?",
+            "content": "<p>Nos boîtes sont conçues avec des matériaux rigides pour assurer une bonne protection de vos montres, associés à des revêtements intérieurs plus doux afin de limiter les frottements et les contacts directs.</p>"
+          }
         }
       },
       "block_order": [
         "item_VUe36D",
         "item_Y4NCWR",
-        "item_nnHB9N"
+        "item_nnHB9N",
+        "item_timpHt"
       ],
       "name": "FAQ",
       "settings": {
