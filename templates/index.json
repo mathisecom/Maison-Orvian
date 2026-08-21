@@ -400,6 +400,32 @@
         "text_color": ""
       }
     },
+    "rich_text_QjPbmz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bFYTMK": {
+          "type": "heading",
+          "settings": {
+            "text": "Nos Remontoirs",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_bFYTMK"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_collection_MCfxHH": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -460,6 +486,32 @@
         "full_width": false,
         "alternate_media_position": false,
         "spacing": "none"
+      }
+    },
+    "featured_collection_kBa4e6": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "remontoirs",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "rich_text_kH6pDg": {
@@ -744,6 +796,8 @@
     "rich_text_ehFzNN",
     "featured_collection_MCfxHH",
     "media_with_text_TG7R9J",
+    "rich_text_QjPbmz",
+    "featured_collection_kBa4e6",
     "rich_text_kH6pDg",
     "logooscroll_Hztpj3",
     "testimonials_ifcwUM",
