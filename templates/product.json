@@ -510,13 +510,21 @@
             "title": "Quels matériaux sont utilisés ?",
             "content": "<p>Nos boîtes sont conçues avec des matériaux rigides pour assurer une bonne protection de vos montres, associés à des revêtements intérieurs plus doux afin de limiter les frottements et les contacts directs.</p>"
           }
+        },
+        "item_fKnR8W": {
+          "type": "item",
+          "settings": {
+            "title": "Que se passe-t-il si le produit ne me convient pas ?",
+            "content": "<p>Chez <strong>Maison Orvian</strong>, vous bénéficiez d’une garantie <strong>satisfait ou remboursé de 30 jours</strong>. Si votre commande ne répond pas à vos attentes, vous disposez de 30 jours après sa réception pour nous la retourner et obtenir un remboursement, conformément à notre politique de retour.</p>"
+          }
         }
       },
       "block_order": [
         "item_VUe36D",
         "item_Y4NCWR",
         "item_nnHB9N",
-        "item_timpHt"
+        "item_timpHt",
+        "item_fKnR8W"
       ],
       "name": "FAQ",
       "settings": {
