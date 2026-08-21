@@ -135,6 +135,207 @@
         "input_text_color": ""
       }
     },
+    "rich_text_d9Vr7C": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_DwLNLa": {
+          "type": "subheading",
+          "settings": {
+            "text": "ILS EN PARLENT MIEUX QUE NOUS"
+          }
+        },
+        "heading_q9We7a": {
+          "type": "heading",
+          "settings": {
+            "text": "+3,000 Passionnés Satisfaits",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DwLNLa",
+        "heading_q9We7a"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "logooscroll_dr6Bk7": {
+      "type": "logooscroll",
+      "blocks": {
+        "image_zbrGkj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_70.webp",
+            "url": ""
+          }
+        },
+        "image_ny6PdX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_71.webp",
+            "url": ""
+          }
+        },
+        "image_mcFR64": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_72.webp",
+            "url": ""
+          }
+        },
+        "image_UQKh94": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_73.webp",
+            "url": ""
+          }
+        },
+        "image_XfPzg9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_74.webp",
+            "url": ""
+          }
+        },
+        "image_AfC38z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_75.webp",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zbrGkj",
+        "image_ny6PdX",
+        "image_mcFR64",
+        "image_UQKh94",
+        "image_XfPzg9",
+        "image_AfC38z"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "scrolling_velocity": 30,
+        "scrolling_velocity_mobile": 30,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 70,
+        "scrolling_gap_mobile": 30,
+        "card_width_desktop": 130,
+        "card_width_mobile": 120,
+        "heading_color": "#121212",
+        "layout_bg_color": "#FFFFFF",
+        "layout_border_color": "#121212",
+        "background_color": "#FFFFFF",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "testimonials_CBr4xA": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_neWCF3": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/gempages_571765381580981472-6117fee8-8904-45ff-959f-de656088ce08.webp",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_iTJK9P": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/gempages_571765381580981472-773f7b1b-d4c8-41d8-a213-a2d269aeafe0.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_ecB8iD": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/gempages_571765381580981472-53068ecf-6f86-4a7f-bc84-993f473c3b7e.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_XP3PUA": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/gempages_571765381580981472-697df071-eed1-4437-b8d5-e3454f89ef1b.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_neWCF3",
+        "testimonial_iTJK9P",
+        "testimonial_ecB8iD",
+        "testimonial_XP3PUA"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
     "media_with_text_JiPAWH": {
       "type": "media-with-text",
       "blocks": {
@@ -147,9 +348,9 @@
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
-            "subheading": "",
-            "title": "Tranquillité d’Esprit Assurée",
-            "content": "<p>Chez <strong>Maison Orvin</strong>, votre satisfaction est essentielle. Profitez de notre <strong>garantie Satisfait ou Remboursé pendant 30 jours</strong>, ainsi que d’une <strong>garantie constructeur de 2 ans</strong>. </p><p>Essayez votre produit chez vous et, s’il ne vous convient pas, <strong>retournez-le sous 30 jours pour un remboursement complet</strong>.</p>",
+            "subheading": "Tranquillité d’Esprit Assurée",
+            "title": "Notre Garantie 30 jours.",
+            "content": "<p>Chez <strong>Maison Orvin</strong>, votre satisfaction est essentielle. Profitez de notre <strong>garantie Satisfait ou Remboursé pendant 30 jours</strong>, ainsi que d’une <strong>garantie constructeur de 2 ans</strong>. </p>",
             "link_text": "Commandez Maintenant",
             "link_url": "#shopify-section-template--27386083934488__main",
             "background": "#000000",
@@ -196,6 +397,9 @@
   },
   "order": [
     "main",
+    "rich_text_d9Vr7C",
+    "logooscroll_dr6Bk7",
+    "testimonials_CBr4xA",
     "media_with_text_JiPAWH",
     "related-products"
   ]
