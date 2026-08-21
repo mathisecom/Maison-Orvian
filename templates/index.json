@@ -208,7 +208,7 @@
           "type": "heading",
           "settings": {
             "text": "Meilleures Ventes",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -374,6 +374,58 @@
         "logo_area_height_mobile": 50
       }
     },
+    "rich_text_ehFzNN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UYAaQx": {
+          "type": "heading",
+          "settings": {
+            "text": "Nos Remontoirs",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_UYAaQx"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_MCfxHH": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "remontoirs",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "media_with_text_TG7R9J": {
       "type": "media-with-text",
       "blocks": {
@@ -516,9 +568,9 @@
         "card_width_desktop": 120,
         "card_width_mobile": 130,
         "heading_color": "#121212",
-        "layout_bg_color": "#FFFFFF",
+        "layout_bg_color": "#ffffff",
         "layout_border_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "border_color": "#121212",
         "margin_top": 0,
         "margin_bottom": 0,
@@ -689,6 +741,8 @@
     "featured_collection_yrpGR9",
     "rich_text_eWE7N7",
     "maisonhorlogere_a3cfFE",
+    "rich_text_ehFzNN",
+    "featured_collection_MCfxHH",
     "media_with_text_TG7R9J",
     "rich_text_kH6pDg",
     "logooscroll_Hztpj3",
