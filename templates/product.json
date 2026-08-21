@@ -444,6 +444,89 @@
         "logo_area_height_mobile": 70
       }
     },
+    "barreannoncescrooll_XGCmLp": {
+      "type": "barreannoncescrooll",
+      "blocks": {
+        "item_iL4jn6": {
+          "type": "item",
+          "settings": {
+            "text": "ÉLÉGANTE",
+            "link": ""
+          }
+        },
+        "item_yPq3NQ": {
+          "type": "item",
+          "settings": {
+            "text": "OBJETS DESIGN",
+            "link": ""
+          }
+        },
+        "item_hGEapp": {
+          "type": "item",
+          "settings": {
+            "text": "MAROQUINERIE",
+            "link": ""
+          }
+        },
+        "item_gydiiY": {
+          "type": "item",
+          "settings": {
+            "text": "CAVE À CIGARES",
+            "link": ""
+          }
+        },
+        "item_ngYrNF": {
+          "type": "item",
+          "settings": {
+            "text": "BRACELETS",
+            "link": ""
+          }
+        },
+        "item_fCxQDk": {
+          "type": "item",
+          "settings": {
+            "text": "PRODUITS PERSONNALISABLES",
+            "link": ""
+          }
+        },
+        "item_H9HQHx": {
+          "type": "item",
+          "settings": {
+            "text": "ÉTUI À CIGARE",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_iL4jn6",
+        "item_yPq3NQ",
+        "item_hGEapp",
+        "item_gydiiY",
+        "item_ngYrNF",
+        "item_fCxQDk",
+        "item_H9HQHx"
+      ],
+      "name": "Barre annonce défilante",
+      "settings": {
+        "background_color": "#FFFFFF",
+        "text_color": "#47444A",
+        "separator_color": "#47444A",
+        "font_size_desktop": 14,
+        "font_size_mobile": 12,
+        "font_weight": "400",
+        "letter_spacing": 2,
+        "uppercase": true,
+        "gap_desktop": 34,
+        "gap_mobile": 26,
+        "padding_vertical": 15,
+        "padding_vertical_mobile": 25,
+        "separator_size": 7,
+        "separator_radius": 1,
+        "speed_desktop": 50,
+        "speed_mobile": 80,
+        "pause_on_hover": false
+      }
+    },
     "media_with_text_JiPAWH": {
       "type": "media-with-text",
       "blocks": {
@@ -579,6 +662,7 @@
     "logooscroll_dr6Bk7",
     "testimonials_CBr4xA",
     "maisonhorlogere_c8FE6z",
+    "barreannoncescrooll_XGCmLp",
     "media_with_text_JiPAWH",
     "faq_ccYtBU",
     "related-products"
