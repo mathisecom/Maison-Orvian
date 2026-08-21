@@ -30,6 +30,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_Y9pyiP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-benefits\">\n\n  <div class=\"benefit-item\">\n    <span class=\"benefit-square\"></span>\n    <span class=\"benefit-text\">Exposez vos plus belles pièces</span>\n  </div>\n\n  <div class=\"benefit-item\">\n    <span class=\"benefit-square\"></span>\n    <span class=\"benefit-text\">Protection contre les chocs et les rayures</span>\n  </div>\n\n  <div class=\"benefit-item\">\n    <span class=\"benefit-square\"></span>\n    <span class=\"benefit-text\">Rangez et organisez votre collection avec élégance</span>\n  </div>\n\n</div>\n\n<style>\n  .product-benefits {\n    display: flex;\n    flex-direction: column;\n    gap: 14px;\n    width: 100%;\n  }\n\n  .benefit-item {\n    display: flex;\n    align-items: center;\n    gap: 13px;\n  }\n\n  .benefit-square {\n    width: 11px;\n    height: 11px;\n    min-width: 11px;\n    background-color: #111111;\n    transform: rotate(50deg);\n    display: block;\n  }\n\n  .benefit-text {\n    font-family: inherit;\n    font-size: 14px;\n    font-weight: 500;\n    line-height: 1.4;\n    color: #111111;\n  }\n\n  /* MOBILE */\n  @media screen and (max-width: 749px) {\n    .product-benefits {\n      gap: 12px;\n    }\n\n    .benefit-item {\n      gap: 11px;\n    }\n\n    .benefit-square {\n      width: 9px;\n      height: 9px;\n      min-width: 9px;\n    }\n\n    .benefit-text {\n      font-size: 13px;\n    }\n  }\n</style>"
+          }
+        },
         "rating": {
           "type": "rating",
           "disabled": true,
@@ -119,6 +125,7 @@
         "liquid_yrdEBr",
         "title",
         "price",
+        "liquid_Y9pyiP",
         "rating",
         "separator",
         "variant_picker",
