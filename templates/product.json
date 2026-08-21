@@ -42,12 +42,6 @@
           "disabled": true,
           "settings": {}
         },
-        "liquid_WQ48Pw": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"in-stock-container\">\n  <div class=\"icon-container-product\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\">\n      <path fill=\"#00a341\" d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z\"></path>\n    </svg>\n  </div>\n\n  <span class=\"stock-text\">\n    En Stock - Livraison prévue entre le\n    <span id=\"delivery-start\"></span>\n    et le\n    <span id=\"delivery-end\"></span>\n  </span>\n</div>\n\n<style>\n  .in-stock-container {\n    display: flex;\n    align-items: center;\n    gap: 7px;\n  }\n\n  .icon-container-product {\n    width: 17px;\n    height: 17px;\n    flex-shrink: 0;\n  }\n\n  .icon-container-product svg {\n    width: 100%;\n    height: 100%;\n    display: block;\n  }\n\n  .stock-text {\n    color: #008d16;\n    font-family: \"Fustat\", sans-serif;\n    font-size: 13px;\n    font-weight: 600;\n    line-height: 1.3;\n  }\n</style>\n\n<script>\n  const aujourdHui = new Date();\n\n  const dateDebut = new Date(aujourdHui);\n  dateDebut.setDate(aujourdHui.getDate() + 5);\n\n  const dateFin = new Date(aujourdHui);\n  dateFin.setDate(aujourdHui.getDate() + 7);\n\n  const formatDate = (date) => {\n    return date.toLocaleDateString(\"fr-FR\", {\n      day: \"numeric\",\n      month: \"long\"\n    });\n  };\n\n  document.getElementById(\"delivery-start\").textContent = formatDate(dateDebut);\n  document.getElementById(\"delivery-end\").textContent = formatDate(dateFin);\n</script>"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -72,6 +66,12 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "liquid_WQ48Pw": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"in-stock-container\">\n  <div class=\"icon-container-product\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\">\n      <path fill=\"#00a341\" d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z\"></path>\n    </svg>\n  </div>\n\n  <span class=\"stock-text\">\n    En Stock - Livraison prévue entre le\n    <span id=\"delivery-start\"></span>\n    et le\n    <span id=\"delivery-end\"></span>\n  </span>\n</div>\n\n<style>\n  .in-stock-container {\n    display: flex;\n    align-items: center;\n    gap: 7px;\n  }\n\n  .icon-container-product {\n    width: 17px;\n    height: 17px;\n    flex-shrink: 0;\n  }\n\n  .icon-container-product svg {\n    width: 100%;\n    height: 100%;\n    display: block;\n  }\n\n  .stock-text {\n    color: #008d16;\n    font-family: \"Fustat\", sans-serif;\n    font-size: 13px;\n    font-weight: 600;\n    line-height: 1.3;\n  }\n</style>\n\n<script>\n  const aujourdHui = new Date();\n\n  const dateDebut = new Date(aujourdHui);\n  dateDebut.setDate(aujourdHui.getDate() + 5);\n\n  const dateFin = new Date(aujourdHui);\n  dateFin.setDate(aujourdHui.getDate() + 7);\n\n  const formatDate = (date) => {\n    return date.toLocaleDateString(\"fr-FR\", {\n      day: \"numeric\",\n      month: \"long\"\n    });\n  };\n\n  document.getElementById(\"delivery-start\").textContent = formatDate(dateDebut);\n  document.getElementById(\"delivery-end\").textContent = formatDate(dateFin);\n</script>"
           }
         },
         "liquid_ArULVe": {
@@ -115,10 +115,10 @@
         "price",
         "rating",
         "separator",
-        "liquid_WQ48Pw",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "liquid_WQ48Pw",
         "liquid_ArULVe",
         "description",
         "collapsible_text_naiARe",
