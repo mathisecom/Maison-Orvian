@@ -442,6 +442,98 @@
         "text_color": ""
       }
     },
+    "logooscroll_Hztpj3": {
+      "type": "logooscroll",
+      "blocks": {
+        "image_qznN3w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_74.webp",
+            "url": ""
+          }
+        },
+        "image_VjznK6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_73.webp",
+            "url": ""
+          }
+        },
+        "image_VA7GTd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_72.webp",
+            "url": ""
+          }
+        },
+        "image_nCUqFV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_71.webp",
+            "url": ""
+          }
+        },
+        "image_Rzyih9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_70.webp",
+            "url": ""
+          }
+        },
+        "image_bHcwrP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_75.webp",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qznN3w",
+        "image_VjznK6",
+        "image_VA7GTd",
+        "image_nCUqFV",
+        "image_Rzyih9",
+        "image_bHcwrP"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "scrolling_velocity": 30,
+        "scrolling_velocity_mobile": 30,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 70,
+        "scrolling_gap_mobile": 30,
+        "card_width_desktop": 130,
+        "card_width_mobile": 100,
+        "heading_color": "#121212",
+        "layout_bg_color": "#FFFFFF",
+        "layout_border_color": "#121212",
+        "background_color": "#FFFFFF",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "testimonials_ifcwUM": {
       "type": "testimonials",
       "blocks": {
@@ -598,6 +690,7 @@
     "maisonhorlogere_a3cfFE",
     "media_with_text_TG7R9J",
     "rich_text_kH6pDg",
+    "logooscroll_Hztpj3",
     "testimonials_ifcwUM",
     "faq"
   ]
