@@ -514,6 +514,42 @@
         "product_card_text_color": ""
       }
     },
+    "media_with_text_yUdxEj": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Wn9mN9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/etuimaisonorvin.webp",
+            "media_width": 45,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Tranquillité d’Esprit Assurée",
+            "title": "Notre Garantie 30 jours.",
+            "content": "<p>Chez <strong>Maison Orvin</strong>, votre satisfaction est essentielle. Profitez de notre <strong>garantie Satisfait ou Remboursé pendant 30 jours</strong>, ainsi que d’une <strong>garantie constructeur de 2 ans</strong>.</p>",
+            "link_text": "NOS COLLECTIONS",
+            "link_url": "",
+            "background": "#101010",
+            "background_gradient": "",
+            "text_color": "#FFFFFF",
+            "text_gradient": "",
+            "button_background": "#FFFFFF",
+            "button_text_color": "#101010"
+          }
+        }
+      },
+      "block_order": [
+        "image_Wn9mN9"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
     "rich_text_kH6pDg": {
       "type": "rich-text",
       "blocks": {
@@ -798,6 +834,7 @@
     "media_with_text_TG7R9J",
     "rich_text_QjPbmz",
     "featured_collection_kBa4e6",
+    "media_with_text_yUdxEj",
     "rich_text_kH6pDg",
     "logooscroll_Hztpj3",
     "testimonials_ifcwUM",
