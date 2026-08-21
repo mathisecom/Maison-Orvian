@@ -486,14 +486,14 @@
         "item_VUe36D": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Un remontoir est-il vraiment utile pour une montre automatique ?",
+            "content": "<p>Oui. Un remontoir permet de maintenir votre montre automatique en fonctionnement et prête à être portée à tout moment. Il limite également les réglages fréquents, notamment pour les modèles dotés de complications horlogères comme un calendrier, une date complexe ou les phases de lune.</p>"
           }
         },
         "item_Y4NCWR": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
+            "title": "Quels types de montres peuvent être rangés dans vos boîtes ?",
             "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
           }
         },
