@@ -494,14 +494,14 @@
           "type": "item",
           "settings": {
             "title": "Quels types de montres peuvent être rangés dans vos boîtes ?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "content": "<p>Nos boîtes sont conçues pour accueillir différents types de montres : mécaniques, automatiques, à quartz ou connectées. Les coussins s’adaptent à plusieurs tailles de bracelets afin d’assurer un maintien confortable de vos montres.</p>"
           }
         },
         "item_nnHB9N": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Les étuis, boîtes et remontoirs sont-ils compatibles avec toutes les montres ?",
+            "content": "<p>Nos produits sont conçus pour accueillir la grande majorité des montres du marché, qu’elles soient classiques, sportives ou de luxe. Les dimensions de chaque produit sont précisées sur sa fiche afin de vous permettre de vérifier facilement sa compatibilité avec votre montre.</p>"
           }
         }
       },
