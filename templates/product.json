@@ -150,14 +150,14 @@
             "subheading": "",
             "title": "Tranquillité d’Esprit Assurée",
             "content": "<p>Chez <strong>Maison Orvin</strong>, votre satisfaction est essentielle. Profitez de notre <strong>garantie Satisfait ou Remboursé pendant 30 jours</strong>, ainsi que d’une <strong>garantie constructeur de 2 ans</strong>. </p><p>Essayez votre produit chez vous et, s’il ne vous convient pas, <strong>retournez-le sous 30 jours pour un remboursement complet</strong>.</p>",
-            "link_text": "",
-            "link_url": "",
+            "link_text": "Commandez Maintenant",
+            "link_url": "#shopify-section-template--27386083934488__main",
             "background": "#000000",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
+            "button_background": "#FFFFFF",
+            "button_text_color": "#101010"
           }
         }
       },
