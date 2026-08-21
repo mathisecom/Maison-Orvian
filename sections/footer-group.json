@@ -18,8 +18,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-box",
-            "mobile_icon_width": 28,
-            "icon_width": 24,
+            "custom_icon": "shopify://shop_images/1_79517ed9-8ed7-465b-8023-8d39b8ef6c0a.webp",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
@@ -31,12 +32,13 @@
           "type": "item",
           "settings": {
             "icon": "picto-return",
-            "mobile_icon_width": 28,
-            "icon_width": 28,
+            "custom_icon": "shopify://shop_images/3_951a10f6-5aa7-42be-9106-544f49ebedf5.webp",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Garantie 30 jours",
+            "title": "Garantie Légale 2 ans",
             "content": ""
           }
         },
@@ -44,8 +46,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-lock",
-            "mobile_icon_width": 28,
-            "icon_width": 28,
+            "custom_icon": "shopify://shop_images/2_78fc68d9-8604-4b87-a023-dd08f5a8aa3b.webp",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
@@ -66,7 +69,7 @@
         "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "#f1f1f2",
+        "background": "#FFFFFF",
         "background_gradient": "",
         "text_color": ""
       }
